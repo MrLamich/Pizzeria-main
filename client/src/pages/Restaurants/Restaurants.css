@@ -1,0 +1,26 @@
+.restaurants-container {
+  background-image: url("../../images/restaurants-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: xx-large;
+  height: 20em;
+}
+
+.restaurants-text-container {
+  width: 40%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+}
+
+.restaurants-horizontal-line {
+  width: 10em;
+  border-bottom: 2px solid #ffffff;
+  margin: 1em 0;
+}

@@ -1,0 +1,36 @@
+.catalog-container {
+  margin: 2em;
+}
+
+.catalog-pizzas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.catalog-pizza{
+  max-width: 200px;
+}
+
+.catalog-button {
+  background-color: #d31c29;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 1em;
+  border: none;
+  border-radius: 1em;
+  font-weight: 600;
+}
+
+#cart-product-amount {
+  padding: 0.8em;
+  border-radius: 1em;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

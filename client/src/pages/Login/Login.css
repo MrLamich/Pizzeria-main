@@ -1,0 +1,139 @@
+.login {
+  z-index: 100;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+
+.login__title {
+  width: 100%;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 37px;
+  text-align: center;
+}
+
+.login-title__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__exit {
+  position: absolute;
+  cursor: pointer;
+  top: 45px;
+  right: 55px;
+}
+
+.login__label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #666666;
+}
+
+#email__input {
+  margin-left: 12px;
+}
+
+#password__input {
+  margin-left: 23px;
+}
+
+.login__input {
+  width: 321px;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  font-family: "Montserrat";
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.login__input:hover,
+.login__input:focus,
+.login__input:active {
+  border: 1px solid #fad22c;
+}
+
+.login-input__wrapper {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__submit {
+  font-family: "Open Sans" sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 19px;
+  background-color: #d31c29;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.login__submit:hover,
+.login__submit:focus {
+  background-color: #7f1119;
+}
+
+.login__submit:active {
+  background-color: #43080d;
+}
+
+.login__submit:disabled {
+  background-color: #666666;
+}
+
+.login__wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
+
+.login__button {
+  background-color: white;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.login__button:hover,
+.login__button:focus {
+  color: #d31c29;
+}
+
+.login__button:active {
+  color: #7f1119;
+}
+
+.login__link {
+  color: #d31c29;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.login__link:hover,
+.login__link:focus,
+.login__link:active {
+  color: #7f1119;
+}

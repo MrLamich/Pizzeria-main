@@ -1,0 +1,144 @@
+.cart-container {
+  font-weight: 600;
+}
+
+.cart-order-container {
+  font-weight: 600;
+  width: 30em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cart-amount-order {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.cart-product-card {
+  border: 1px solid #dddddd;
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.cart-product-info {
+  display: flex;
+}
+
+.cart-product-text {
+  margin-left: 1em;
+}
+
+.cart-product-description {
+  color: #999999;
+  font-size: 14px;
+}
+
+.cart-horizontal-line {
+  width: 100%;
+  border-bottom: 1px solid #999999;
+  margin: 1em 0;
+}
+
+.cart-order-container {
+  background-color: #fad22c;
+  padding: 1em 2em;
+}
+
+.cart-price-container {
+  border-radius: 0.3em;
+  background-color: #ffffff;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+.cart-price-container .cart-price-line {
+  margin: 1em 0;
+}
+
+.cart-price-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-product-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-element {
+  padding: 0.7em;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cart-input {
+  outline: none;
+}
+
+.cart-button {
+  background-color: #d31c29;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cart-button-amount {
+  background-color: #d31c29;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 1em;
+  border: none;
+  border-radius: 1em;
+  font-weight: 600;
+}
+
+#cart-product-amount {
+  padding: 0.8em;
+  border-radius: 1em;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+/* чтобы убрать стрелочки внутри input */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* если пользователь не зареган, высвечивается этот див(окно) */
+.tooltip {
+  display: inline-block;
+  background-color: #222222;
+  color: white;
+  padding: 8px;
+  border-radius: 0.5em;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  text-align: center;
+}
+
+/* чтобы сделать треугольник снизу*/
+.tooltip::before,
+.tooltip::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  border: 10px solid transparent;
+  border-top: 10px solid #222222;
+}
+
+.tooltip::after {
+  border-top: 10px solid #222222;
+}

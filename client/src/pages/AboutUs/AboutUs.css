@@ -1,0 +1,14 @@
+.about-us-container{
+    margin: 2em;
+}
+
+.point{
+    padding: 1em;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 3em;
+    border-radius: 1em;
+}
+
+.about-us-container h2{
+    margin-bottom: 1em;
+}

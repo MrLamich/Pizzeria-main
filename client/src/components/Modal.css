@@ -1,0 +1,40 @@
+.main-modal-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.main-modal {
+  height: 100%;
+  animation-name: modalAppear;
+  animation-duration: 0.5s;
+}
+
+@keyframes modalAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.main-modal-content {
+  background-color: #ffffff;
+  padding: 2em;
+  overflow: auto;
+}
+
+.main-modal-exit {
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
